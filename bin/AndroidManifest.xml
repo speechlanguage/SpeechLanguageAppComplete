@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="at.vcity.androidim"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logtransparent"
+        android:label="@string/title"
+        android:name="@string/title"
+        android:theme="@style/AppTheme" android:logo="@drawable/logtransparent" android:description="@string/title">
+        <activity android:name="org.am.sl.FriendList" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+
+                <category android:name="android.intent.category.NORMAL" >
+                </category>
+            </intent-filter>
+        </activity>
+
+        <service android:name="org.am.sl.services.IService" >
+        </service>
+
+        <activity android:name="org.am.sl.Login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+                <category android:name="android.intent.category.NORMAL" >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity android:name="org.am.sl.Messaging" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+
+                <category android:name="android.intent.category.NORMAL" >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity android:name="org.am.sl.SignUp" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+
+                <category android:name="android.intent.category.NORMAL" >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity android:name="org.am.sl.AddFriend" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+
+                <category android:name="android.intent.category.NORMAL" >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity android:name="org.am.sl.UnApprovedFriendList" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+
+                <category android:name="android.intent.category.NORMAL" >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.am.sl.Language"
+            android:label="@string/title_activity_language" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+
+                <category android:name="android.intent.category.NORMAL" >
+                </category>
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="org.am.sl.Welcome"
+            android:label="@string/title_activity_welcome" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+
+                <category android:name="android.intent.category.LAUNCHER" >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.am.sl.language.ListLanguage"
+            android:label="@string/title_activity_list_idioma" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <enumeration id="1" language="java" name="org.am.sl.types.STATUS" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/types/STATUS.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="796" y="1046"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="2" language="java" name="org.am.sl.types.MessageInfo" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/types/MessageInfo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="530" y="1584"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.am.sl.types.FriendInfo" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/types/FriendInfo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1096" y="1206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.am.sl.tools.XMLHandler" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/tools/XMLHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="536" y="1321"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.am.sl.tools.MessageController" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/tools/MessageController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="806" y="1558"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="org.am.sl.tools.LocalStorageHandler" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/tools/LocalStorageHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="488" y="864"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="org.am.sl.tools.FriendController" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/tools/FriendController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1455" y="1121"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="org.am.sl.services.IService.IMBinder" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/services/IService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="185" x="-84" y="508"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="org.am.sl.services.IService" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/services/IService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="28" y="1048"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="org.am.sl.language.ListLanguage" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/language/ListLanguage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="721" y="-86"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="11" language="java" name="org.am.sl.interfaces.IAppManager" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/interfaces/IAppManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="416" y="409"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="12" language="java" name="org.am.sl.interfaces.ISocketOperator" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/interfaces/ISocketOperator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="44" y="1612"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="13" language="java" name="org.am.sl.interfaces.IUpdateData" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/interfaces/IUpdateData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="508" y="1131"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" language="java" name="org.am.sl.Welcome" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/Welcome.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="286" x="269" y="-441"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="org.am.sl.SignUp" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/SignUp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-3" y="282"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="org.am.sl.Messaging.MessageReceiver" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/Messaging.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="932" y="500"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="org.am.sl.Messaging" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/Messaging.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="931" y="764"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="org.am.sl.Login" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/Login.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="406" y="-120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="org.am.sl.FriendList.FriendListAdapter" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/FriendList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1229" y="210"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="org.am.sl.FriendList.MessageReceiver" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/FriendList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="947" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="org.am.sl.FriendList" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/FriendList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="866" y="198"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="org.am.sl.FriendList.FriendListAdapter.ViewHolder" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/FriendList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1454" y="168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="org.am.sl.AddFriend" project="SpeechLanguage" 
+    file="/SpeechLanguage/src/org/am/sl/AddFriend.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="114" y="-118"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="24">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="22"/>  
+  </nesting>  
+  <association id="25">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="26" name="friends"/>      
+      <multiplicity id="27" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="28">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <association id="29">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="30" name="imService"/>      
+      <multiplicity id="31" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="32">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <nesting id="33">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="16"/>  
+  </nesting>  
+  <association id="34">    
+    <bendpoint x="1174" y="1058"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="35" name="friendsInfo"/>      
+      <multiplicity id="36" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="38" name="status"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="40">    
+    <bendpoint x="810" y="1185"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="41" name="unapprovedFriends"/>      
+      <multiplicity id="42" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="43">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="44" name="imService"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="46">    
+    <bendpoint x="829" y="1244"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="47" name="fFriends"/>      
+      <multiplicity id="48" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="49">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="50" name="mImService"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="52">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="53" name="messageReceiver"/>      
+      <multiplicity id="54" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="55">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="56" name="localstoragehandler"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="58">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="59" name="friendAdapter"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="61">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="62" name="friend"/>      
+      <multiplicity id="63" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="64">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="65" name="messageReceiver"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="68" name="updater"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="70">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="71" name="unreadMessages"/>      
+      <multiplicity id="72" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="74" name="socketOperator"/>      
+      <multiplicity id="75" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <bendpoint x="841" y="1288"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="77" name="onlineFriends"/>      
+      <multiplicity id="78" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="79">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="20"/>  
+  </nesting>  
+  <association id="80">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="81" name="localstoragehandler"/>      
+      <multiplicity id="82" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="83">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="84" name="imService"/>      
+      <multiplicity id="85" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="86">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <nesting id="87">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="19"/>  
+  </nesting>  
+  <association id="88">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="89" name="imService"/>      
+      <multiplicity id="90" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="91">    
+    <bendpoint x="1174" y="1136"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="92" name="unapprovedFriendsInfo"/>      
+      <multiplicity id="93" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="94">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="95" name="messagesInfo"/>      
+      <multiplicity id="96" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

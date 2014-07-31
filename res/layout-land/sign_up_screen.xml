@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="@string/username" />
+
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:ems="10"
+                android:password="false"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="@string/password" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:ems="10"
+                android:password="true"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="@string/password_again" />
+
+            <EditText
+                android:id="@+id/passwordAgain"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:ems="10"
+                android:password="true"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="@string/email" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:ems="10"
+                android:password="false"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/btnLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language" />
+
+            <Button
+                android:id="@+id/signUp"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_up" />
+
+            <Button
+                android:id="@+id/cancel_signUp"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
